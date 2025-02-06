@@ -700,13 +700,13 @@ button.button__201d5,
 	margin-left: 18px;
 }
 
-button.button__67645 /* make user panel buttons round */ {
+button.button__67645 {
 	border-radius: 50%;
 }
-.attachButton__0923f .attachButtonInner__0923f /* upload button */,
-.emojiButton_d0696b .contents__201d5 /* emoji button */,
-.closeButton_c2b141 /* settings exit button */,
-.contents__201d5 > .closeIcon__49fc1 /* modal close */ {
+.attachButton__0923f .attachButtonInner__0923f,
+.emojiButton_d0696b .contents__201d5,
+.closeButton_c2b141,
+.contents__201d5 > .closeIcon__49fc1 {
 	transition: transform var(--icon-spin-transition);
 }
 .button__67645:last-child:hover .contents__201d5,
